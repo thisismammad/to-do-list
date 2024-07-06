@@ -60,7 +60,7 @@ main .add {
   align-items: center;
   border-radius: 10px;
   max-width: 425px;
-  width: inherit;
+  width: 90%;
   position: fixed;
   bottom: 50px;
   left: 50%;
