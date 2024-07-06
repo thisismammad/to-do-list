@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+   <header>
+    <h1>Todo List</h1>
+    <div class="search-container">
+        <i class="fas fa-search"></i>
+        <input id="search" type="text" placeholder="Search">
+    </div>
+   </header>
+   <main>
+
+    <div class="list">
+        <h3>My list</h3>
+        <ul id="list">
+            <li>
+                <span class="text"> item 1</span>
+                <i class="fa-solid fa-trash"></i>
+            </li>
+            <li>
+                <span class="text"> item 1</span>
+                <i class="fa-solid fa-trash"></i>
+            </li>
+            <li>
+                <span class="text"> item 1</span>
+                <i class="fa-solid fa-trash"></i>
+            </li>
+        </ul>
+    </div>
+
+    <div class="add">
+        <input id="addInput" type="text" placeholder="Add new list">
+        <i id="addBtn" class="fa-solid fa-square-plus"></i>
+    </div>
+   </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
